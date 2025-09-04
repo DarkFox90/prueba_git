@@ -1,17 +1,17 @@
-public class constructor {
+public class Constructor {
     private String nombre;
-    private int edad;
+    private String ocupacion;
 
-    public constructor(String nombre, int edad) {
+    public Constructor(String nombre, String ocupacion) {
         this.nombre = nombre;
-        this.edad = edad;
+        this.ocupacion = ocupacion;
     }
 
     public String getNombre(){
         return nombre;
     }
 
-    public int getEdad() {
-        return edad;
+    public String getOcupacion() {
+        return ocupacion;
     }
 }
