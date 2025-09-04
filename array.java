@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
-public class array {
+public class Array {
      ArrayList<Constructor> array1 = new ArrayList<>();
      ArrayList<Constructor> array2 = new ArrayList<>();
+
 
 
     Constructor c1 = new Constructor("pepe" , "ingeniero");
